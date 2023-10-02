@@ -1,17 +1,10 @@
 import React from "react";
-import Card from "./Card";
+import Card from "./Card/Card";
 
-class Main extends React.Component {
-    render() {
+function Main() {
       return <main>
-        <Card theme="Business"
-                  title="Finansial Institutions"
-                  transcription="|faɪˈnænʃl| |ˌɪnstɪˈtuːʃn|" 
-                  card-translation="Финансовые учреждения"
-                    />
+        <Card/>
         </main>;
     }
-  }
-  
 
 export default Main;

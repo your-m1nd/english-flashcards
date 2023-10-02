@@ -1,13 +1,14 @@
 import React from 'react';
 import '../Header/Header.css';
+import logo from '../assets/img/education.jpg'
+function Header() {
 
-class Header extends React.Component {
-    render() {
       return <header>
-        <h1>Карточки для изучения английского языка</h1>
+        <h1>Let's start!</h1>
+        <img src={logo} alt="logo" />
+        <button>Start our journey!</button>
         </header>;
     }
-  }
   
 
 export default Header;
