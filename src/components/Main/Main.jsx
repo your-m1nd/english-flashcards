@@ -1,9 +1,9 @@
-import React from "react";
-import Card from "./Card/Card";
+import React from 'react';
+import WordsList from '../WordsList/WordsList';
 
 function Main() {
       return <main>
-        <Card/>
+        <WordsList />
         </main>;
     }
 

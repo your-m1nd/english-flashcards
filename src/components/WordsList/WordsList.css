@@ -1,0 +1,23 @@
+.training {
+    display: grid;
+    border: 1px solid #bdc8ca;
+}
+
+table {
+    border: 1px solid #ccc;  /* граница всей таблицы */
+}
+tr {
+    border: 1px solid #ccc;  /* границы между строками */
+}
+td, th {
+    border: 1px solid #ccc;  /* границы между столбцами */
+}
+
+th {
+    background-color: #1E90FF;
+}
+
+td {
+    background-color: #DCDCDC;
+}
+
