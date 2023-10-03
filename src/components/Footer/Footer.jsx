@@ -1,9 +1,10 @@
 import React from 'react';
+import WordsList from '../WordsList/WordsList';
 
 function Footer() {
 
     return <footer>
-        <p>footer</p>
+       <WordsList />
       </footer>;
   }
 
