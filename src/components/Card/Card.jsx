@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css';
+import './Card.scss';
 import Button from '../Button/Button';
 
 function Card(props) { 

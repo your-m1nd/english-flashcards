@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../Card/Card';
-import '../Card/Card.css';
-import '../Main/Main.css';
+import '../Card/Card.scss';
+import '../Main/Main.scss';
 
 const words = [
   {
