@@ -1,0 +1,17 @@
+@import '../styles/var.scss';
+@import '../styles/mixins.scss';
+
+main {
+   @include flex-center-center;
+}
+
+.arrow-left {
+    @include small-button-styles;
+    background-image: url('./arrow-left.png');
+
+}
+
+.arrow-right {
+    @include small-button-styles;
+    background-image: url('./arrow-right.png');
+}

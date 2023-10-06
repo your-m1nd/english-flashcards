@@ -1,0 +1,19 @@
+@import '../styles/mixins';
+@import '../styles/var';
+
+footer {
+    margin-top: 100px;
+    background-color: $header-footer-color;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-author {
+    @include flex-center-center;
+    gap: 10px;
+
+    &__github-icon {
+        width: 20px;
+    }
+}

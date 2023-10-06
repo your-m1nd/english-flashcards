@@ -1,17 +1,19 @@
-@import '../styles/var.scss';
-@import '../styles/mixins.scss';
+@import '../styles/mixins';
+@import '../styles/var';
 
 main {
-   @include flex-center-center;
+    margin-top: 100px;
+    @include flex-center-column;
 }
 
-.arrow-left {
-    @include small-button-styles;
-    background-image: url('./arrow-left.png');
-
+img {
+    width: 600px;
 }
 
-.arrow-right {
-    @include small-button-styles;
-    background-image: url('./arrow-right.png');
+button {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    border-radius: 1000px;
+    background: linear-gradient(90deg, $gradient-color-1 0%, $gradient-color-2 100%);
 }
