@@ -8,7 +8,7 @@
     margin: 10px;
     text-align: center;
 
-    &-button {
+    &__button {
         width: 150px;
         height: 40px; 
     }
@@ -17,3 +17,13 @@
         font-size: 20px;
     }
 };
+
+.selected {
+    border: 5px solid orange;
+    font-weight: bolder;
+    font-size: large;
+  }
+
+  .open {
+    display: none;
+  }

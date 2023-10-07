@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Main/Main.scss';
 import logo from '../Main/education.jpg';
-import Button from '../Button/Button';
+import Button from '../CardButton/CardButton';
 
 function Main() {
 

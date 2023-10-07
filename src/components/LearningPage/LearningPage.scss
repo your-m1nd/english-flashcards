@@ -1,7 +1,7 @@
 @import '../styles/var.scss';
 @import '../styles/mixins.scss';
 
-main {
+section {
    @include flex-center-center;
 }
 
