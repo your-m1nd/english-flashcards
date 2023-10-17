@@ -3,8 +3,9 @@ import '../Header/Header.scss';
 
 function Header() {
 
+
       return <header>
-        <h1>Let's start!</h1>
+        <h1>English Flashcards</h1>
         </header>;
     }
   

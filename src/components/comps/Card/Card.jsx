@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.scss';
-import CardButton from '../CardButton/CardButton';
+import Button from '../Button';
 import { useState } from 'react';
 
 function Card(props) { 
@@ -19,7 +19,7 @@ return (
   <div className={selectedId === id ?'card ' + (isSelected ? 'selected' :'card') : 'card'} key={id} onClick={()=>{onClick(id)}} >
     <h2 className='card__title'>{name}</h2>
     <p className='card__transcription'>{transcription}</p>
-    <CardButton className={'card__button' ? 'open' : 'card__button'} name={'Показать перевод'}/>
+    <Button className={'card__button' ? 'open' : 'card__button'} name={'Показать перевод'}/>
     {selectedId === id ? <p className='card__translation'>{translation}</p> : <p className='card__translation'></p>} 
   </div>
   

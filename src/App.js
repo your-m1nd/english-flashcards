@@ -1,17 +1,18 @@
 import './App.scss';
 import React from 'react';
-import StartPage from './components/StartPage/StartPage';
-import LearningPage from './components/LearningPage/LearningPage';
-import TrainingPage from './components/TrainingPage/TrainingPage';
+import Start from './components/Pages/Start';
+import Learning from './components/Pages/Learning';
+import Training from './components/Pages/Training';
 
-function learningFlashCards() {
+function App() {
+
       return (
          <div className="App">
-          <StartPage />
-          <LearningPage />
-          <TrainingPage />
+          <Start />
+          <Learning />
+          <Training />
          </div>
       );
   }
 
-export default learningFlashCards;
+export default App;

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function CardButton(props) {
+function Button(props) {
 const {name} = props;
 const [open, setOpen] = useState(false);
 const onClick = () => {
@@ -16,4 +16,4 @@ const onClick = () => {
     )
 }
 
-export default CardButton;
+export default Button;

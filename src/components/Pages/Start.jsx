@@ -3,7 +3,8 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 
-function StartPage() {
+function Start() {
+    
     return <div>
     <Header />
     <Main />
@@ -11,4 +12,4 @@ function StartPage() {
     </div>
 }
 
-export default StartPage;
+export default Start;
